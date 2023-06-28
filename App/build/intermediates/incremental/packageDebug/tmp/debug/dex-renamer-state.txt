@@ -1,0 +1,7 @@
+#Thu Jun 22 14:12:16 SGT 2023
+base.0=C\:\\PPB\\Berita_Indonesia Kel13\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out\\classes.dex
+path.1=classes.dex
+renamed.1=classes2.dex
+path.0=classes.dex
+renamed.0=classes.dex
+base.1=C\:\\PPB\\Berita_Indonesia Kel13\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out\\classes.dex
