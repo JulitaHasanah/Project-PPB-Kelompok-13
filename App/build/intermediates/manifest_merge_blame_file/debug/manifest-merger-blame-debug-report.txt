@@ -1,0 +1,137 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.Berita_Indonesia.Kel13"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\PPB\Berita_Indonesia Kel13\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->C:\PPB\Berita_Indonesia Kel13\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\PPB\Berita_Indonesia Kel13\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\PPB\Berita_Indonesia Kel13\app\src\main\AndroidManifest.xml:5:22-64
+12
+13    <application
+13-->C:\PPB\Berita_Indonesia Kel13\app\src\main\AndroidManifest.xml:7:5-65:19
+14        android:allowBackup="true"
+14-->C:\PPB\Berita_Indonesia Kel13\app\src\main\AndroidManifest.xml:8:9-35
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.0.0] C:\Users\Ana Maria Parasanti\.gradle\caches\transforms-2\files-2.1\918e083f5cec0acd3f5036e97293ed6b\core-1.0.0\AndroidManifest.xml:22:18-86
+16        android:debuggable="true"
+17        android:icon="@mipmap/ic_launcher_news"
+17-->C:\PPB\Berita_Indonesia Kel13\app\src\main\AndroidManifest.xml:9:9-48
+18        android:label="@string/app_name"
+18-->C:\PPB\Berita_Indonesia Kel13\app\src\main\AndroidManifest.xml:10:9-41
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->C:\PPB\Berita_Indonesia Kel13\app\src\main\AndroidManifest.xml:11:9-54
+20        android:supportsRtl="true"
+20-->C:\PPB\Berita_Indonesia Kel13\app\src\main\AndroidManifest.xml:12:9-35
+21        android:testOnly="true"
+22        android:theme="@style/AppTheme"
+22-->C:\PPB\Berita_Indonesia Kel13\app\src\main\AndroidManifest.xml:13:9-40
+23        android:usesCleartextTraffic="true" >
+23-->C:\PPB\Berita_Indonesia Kel13\app\src\main\AndroidManifest.xml:14:9-44
+24        <activity
+24-->C:\PPB\Berita_Indonesia Kel13\app\src\main\AndroidManifest.xml:15:9-18:59
+25            android:name="com.example.Berita_Indonesia.Kel13.RegisterActivity"
+25-->C:\PPB\Berita_Indonesia Kel13\app\src\main\AndroidManifest.xml:16:13-45
+26            android:label="@string/app_name"
+26-->C:\PPB\Berita_Indonesia Kel13\app\src\main\AndroidManifest.xml:17:13-45
+27            android:theme="@style/AppTheme.NoActionBar" />
+27-->C:\PPB\Berita_Indonesia Kel13\app\src\main\AndroidManifest.xml:18:13-56
+28        <activity
+28-->C:\PPB\Berita_Indonesia Kel13\app\src\main\AndroidManifest.xml:19:9-23:20
+29            android:name="com.example.Berita_Indonesia.Kel13.LoginActivity"
+29-->C:\PPB\Berita_Indonesia Kel13\app\src\main\AndroidManifest.xml:20:13-42
+30            android:label="@string/app_name"
+30-->C:\PPB\Berita_Indonesia Kel13\app\src\main\AndroidManifest.xml:21:13-45
+31            android:theme="@style/AppTheme.NoActionBar" >
+31-->C:\PPB\Berita_Indonesia Kel13\app\src\main\AndroidManifest.xml:22:13-56
+32        </activity>
+33        <activity
+33-->C:\PPB\Berita_Indonesia Kel13\app\src\main\AndroidManifest.xml:24:9-35:20
+34            android:name="com.example.Berita_Indonesia.Kel13.SplashScreen"
+34-->C:\PPB\Berita_Indonesia Kel13\app\src\main\AndroidManifest.xml:25:13-41
+35            android:exported="true"
+35-->C:\PPB\Berita_Indonesia Kel13\app\src\main\AndroidManifest.xml:26:13-36
+36            android:noHistory="true"
+36-->C:\PPB\Berita_Indonesia Kel13\app\src\main\AndroidManifest.xml:27:13-37
+37            android:screenOrientation="portrait"
+37-->C:\PPB\Berita_Indonesia Kel13\app\src\main\AndroidManifest.xml:28:13-49
+38            android:theme="@style/AppTheme.NoActionBar" >
+38-->C:\PPB\Berita_Indonesia Kel13\app\src\main\AndroidManifest.xml:29:13-56
+39            <intent-filter>
+39-->C:\PPB\Berita_Indonesia Kel13\app\src\main\AndroidManifest.xml:30:13-34:29
+40                <action android:name="android.intent.action.MAIN" />
+40-->C:\PPB\Berita_Indonesia Kel13\app\src\main\AndroidManifest.xml:31:17-69
+40-->C:\PPB\Berita_Indonesia Kel13\app\src\main\AndroidManifest.xml:31:25-66
+41
+42                <category android:name="android.intent.category.LAUNCHER" />
+42-->C:\PPB\Berita_Indonesia Kel13\app\src\main\AndroidManifest.xml:33:17-77
+42-->C:\PPB\Berita_Indonesia Kel13\app\src\main\AndroidManifest.xml:33:27-74
+43            </intent-filter>
+44        </activity>
+45        <activity
+45-->C:\PPB\Berita_Indonesia Kel13\app\src\main\AndroidManifest.xml:36:9-39:59
+46            android:name="com.example.Berita_Indonesia.Kel13.MainActivity"
+46-->C:\PPB\Berita_Indonesia Kel13\app\src\main\AndroidManifest.xml:37:13-41
+47            android:label="@string/app_name"
+47-->C:\PPB\Berita_Indonesia Kel13\app\src\main\AndroidManifest.xml:38:13-45
+48            android:theme="@style/AppTheme.NoActionBar" />
+48-->C:\PPB\Berita_Indonesia Kel13\app\src\main\AndroidManifest.xml:39:13-56
+49        <activity
+49-->C:\PPB\Berita_Indonesia Kel13\app\src\main\AndroidManifest.xml:40:9-42:40
+50            android:name="com.example.Berita_Indonesia.Kel13.Category.Business"
+50-->C:\PPB\Berita_Indonesia Kel13\app\src\main\AndroidManifest.xml:41:13-46
+51            android:label="Business" />
+51-->C:\PPB\Berita_Indonesia Kel13\app\src\main\AndroidManifest.xml:42:13-37
+52        <activity
+52-->C:\PPB\Berita_Indonesia Kel13\app\src\main\AndroidManifest.xml:43:9-45:45
+53            android:name="com.example.Berita_Indonesia.Kel13.Category.Entertainment"
+53-->C:\PPB\Berita_Indonesia Kel13\app\src\main\AndroidManifest.xml:44:13-51
+54            android:label="Entertainment" />
+54-->C:\PPB\Berita_Indonesia Kel13\app\src\main\AndroidManifest.xml:45:13-42
+55        <activity
+55-->C:\PPB\Berita_Indonesia Kel13\app\src\main\AndroidManifest.xml:46:9-48:38
+56            android:name="com.example.Berita_Indonesia.Kel13.Category.Health"
+56-->C:\PPB\Berita_Indonesia Kel13\app\src\main\AndroidManifest.xml:47:13-44
+57            android:label="Health" />
+57-->C:\PPB\Berita_Indonesia Kel13\app\src\main\AndroidManifest.xml:48:13-35
+58        <activity
+58-->C:\PPB\Berita_Indonesia Kel13\app\src\main\AndroidManifest.xml:49:9-51:39
+59            android:name="com.example.Berita_Indonesia.Kel13.Category.Science"
+59-->C:\PPB\Berita_Indonesia Kel13\app\src\main\AndroidManifest.xml:50:13-45
+60            android:label="Science" />
+60-->C:\PPB\Berita_Indonesia Kel13\app\src\main\AndroidManifest.xml:51:13-36
+61        <activity
+61-->C:\PPB\Berita_Indonesia Kel13\app\src\main\AndroidManifest.xml:52:9-54:38
+62            android:name="com.example.Berita_Indonesia.Kel13.Category.Sports"
+62-->C:\PPB\Berita_Indonesia Kel13\app\src\main\AndroidManifest.xml:53:13-44
+63            android:label="Sports" />
+63-->C:\PPB\Berita_Indonesia Kel13\app\src\main\AndroidManifest.xml:54:13-35
+64        <activity
+64-->C:\PPB\Berita_Indonesia Kel13\app\src\main\AndroidManifest.xml:55:9-57:42
+65            android:name="com.example.Berita_Indonesia.Kel13.Category.Technology"
+65-->C:\PPB\Berita_Indonesia Kel13\app\src\main\AndroidManifest.xml:56:13-48
+66            android:label="Technology" />
+66-->C:\PPB\Berita_Indonesia Kel13\app\src\main\AndroidManifest.xml:57:13-39
+67        <activity
+67-->C:\PPB\Berita_Indonesia Kel13\app\src\main\AndroidManifest.xml:58:9-60:43
+68            android:name="com.example.Berita_Indonesia.Kel13.DetailActivity"
+68-->C:\PPB\Berita_Indonesia Kel13\app\src\main\AndroidManifest.xml:59:13-43
+69            android:label="Detail News" />
+69-->C:\PPB\Berita_Indonesia Kel13\app\src\main\AndroidManifest.xml:60:13-40
+70        <activity
+70-->C:\PPB\Berita_Indonesia Kel13\app\src\main\AndroidManifest.xml:61:9-64:53
+71            android:name="com.example.Berita_Indonesia.Kel13.About"
+71-->C:\PPB\Berita_Indonesia Kel13\app\src\main\AndroidManifest.xml:62:13-34
+72            android:screenOrientation="portrait"
+72-->C:\PPB\Berita_Indonesia Kel13\app\src\main\AndroidManifest.xml:63:13-49
+73            android:theme="@style/AppTheme.PopUp" />
+73-->C:\PPB\Berita_Indonesia Kel13\app\src\main\AndroidManifest.xml:64:13-50
+74    </application>
+75
+76</manifest>
