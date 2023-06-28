@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    android:padding="16dp"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Tim Pengembang"
+        android:textStyle="bold"
+        android:layout_marginBottom="15dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <ImageView
+        android:id="@+id/myImageView1"
+        android:layout_width="160dp"
+        android:layout_height="80dp"
+        android:src="@drawable/fotoana" />
+
+    <TextView
+        android:layout_width="165dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Ana Maria Parasanti		2110131320009"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/colorPrimary"
+        android:textSize="10dp"/>
+
+    <ImageView
+        android:id="@+id/myImageView2"
+        android:layout_width="160dp"
+        android:layout_height="80dp"
+        android:src="@drawable/fotoaqsal" />
+
+    \
+
+    <TextView
+        android:layout_width="179dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Aqshal Hidayat Yahya	    2110131310005"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/colorPrimary"
+        android:textSize="10dp"/>
+
+    <ImageView
+        android:id="@+id/myImageView3"
+        android:layout_width="160dp"
+        android:layout_height="80dp"
+        android:src="@drawable/fotojulita" />
+
+    <TextView
+        android:layout_width="166dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Julita Hasanah			          2110131120005"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/colorPrimary"
+        android:textSize="10dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.2dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@color/tundora" />
+
+
+</LinearLayout>
